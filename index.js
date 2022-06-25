@@ -4,9 +4,9 @@ var score = 0
 
 var userName = readLine.question("Please Enter Your Name: ")
 
-console.log("\nHey! " + userName + ". Welcome to DO YOU KNOW Aman")
+console.log("\nHey! " + userName + ". Let's see how well do you know me.")
 
-var userResponse = readLine.question("\nLet's Start... Press enter to continue: ")
+var userResponse = readLine.question("\nPress enter to continue: ")
 
 console.log()
 
@@ -41,7 +41,7 @@ var questionTwo = {
 var questionThree = {
   question: "Where do I work? ",
   answer: "tcs",
-  rightAnswer: "Currently I work in TCS!"
+  rightAnswer: "Currently I work at TCS!"
 }
 
 var questionFour = {
@@ -53,7 +53,7 @@ var questionFour = {
 var questionFive = {
   question: "Do I like Pizza? ",
   answer: "no",
-  rightAnswer: "I don't like Pizza's... I love them!"
+  rightAnswer: "I don't like Pizza's... I love them! :D"
 }
 
 var questionList = [questionOne, questionTwo, questionThree, questionFour, questionFive]
